@@ -20,7 +20,7 @@ body {
 }
 
 /* Mobile Design */
-@media (max-width: 767px) {
+
 
     /* Navbar */
     .navbar {
@@ -82,7 +82,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: end;
-        gap: 2rem;
+        gap: 1rem;
         margin: 2rem;
     }
 
@@ -92,37 +92,63 @@ body {
         color: var(--purple-background);
         border-radius: 8px;
         border: none;
-        width: 80vw;
+        width: 500px;
         padding: 1rem;
     }
 
     .g-signup-button__header{
-        position: absolute;
+        background-color: var(--blue-button);
+        position: relative;
+        text-align: center;
         font-size: 2rem;
         color: var(--purple-background);
         border-radius: 8px;
         border: none;
-        width: 80vw;
+        width: 500px;
         padding: 1rem;
     }
 
     .g-image{
-        position: relative;
+        background-color: white;
+        position: absolute;
+        left: 3rem;
+        top: 1rem;
         width: 2rem;
     }
 
+    .img__header img {
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
 
-}
+    .companies{
+        display: flex;
+        background-color: var(--ivory-background);
+        flex-wrap: wrap;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p__companies{
+        display: inline-block;
+        color: var(--black-paragraph);
+        font-size: 2rem;
+    }
+
+    .companies img{
+        height: 3rem;
+        margin: 1rem;
+    }
+    
 
 
 
 
 
 
-.img__header img {
-    width: 100%;
-    height: auto;
-}
+
 
 
 
