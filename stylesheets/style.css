@@ -144,14 +144,60 @@ body {
         margin: 1rem;
     }
     
+/* Info */
 
+.info{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
 
+.title__info{
+    margin-top: 2rem;
+    display: inline-block;
+    color: var(--purple-background);
+    text-align: center;
+    font-size: 2.5rem;
+    display: inline-block;
+    width: 60%;
+}
 
+.p__info{
+    color: var(--black-paragraph);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 65%;
+}
 
+.info ul{
+    list-style: none;
+    margin-top: 3rem;
+}
 
+info ul::before{
+    display: block;
+    margin-top: 5rem;
+}
 
+.info li{
+    margin: 2rem;
+}
 
+.info ul p{
+    color: var(--black-paragraph);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 40%;
 
+}
+
+.info span{
+    color: var(--purple-background);
+    font-weight: bold;
+    font-size: 3rem;
+}
 
 
 
