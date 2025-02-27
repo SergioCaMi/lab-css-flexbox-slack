@@ -27,8 +27,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
-    gap: 35%;
+    padding: 1rem;
+    width: 100vw;
+    gap: 40%;
 }
 
 .logo {
@@ -41,9 +42,9 @@ body {
 }
 
 .nav__buttons {
+    width: 20%;
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
 }
 
 .navbar ul {
@@ -60,7 +61,7 @@ header {
 
 .h1__header {
     color: var(--ivory-background);
-    font-size: clamp(2rem, 4vw, 4rem);
+    font-size: clamp(2rem, 4vw, 6rem);
     margin: 0px 2rem;
 }
 
@@ -115,7 +116,8 @@ header {
 
 
 .img__header img {
-    width: 150%;
+    width: 145vw;
+    max-width: 600px;
     margin-left: -1rem;
     overflow: hidden;
 }
@@ -125,7 +127,7 @@ header {
 
 .companies {
     position: relative;
-    margin-top: -3rem;
+    margin-top: -3.5rem;
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -316,7 +318,7 @@ small {
     /* navbar */
 
     .navbar {
-        gap: 45rem;
+        gap: 50%;
     }
 
 
@@ -327,30 +329,42 @@ small {
     }
 
     .text__header {
-        flex: 2;
-        text-align: left;
+        width: 50%;
+    }
 
+    .h1__header {
+        text-align: left;
+        font-size: 4rem;
     }
 
     .img__header {
-        flex: 1;
-    }
-
-    .img__header img {
-        width: 200%;
+        width: 30%;
+        margin-top: 5rem;
         margin-left: 1rem;
-        overflow: hidden;
-        margin-top: 10rem;    }
-
-    .h1__header {
-        font-size: 6rem;
-        margin: 4rem;
-
     }
 
-    .p__header, .h1__header, .signup-button__header {
-        margin: 4rem;
-    }
+.p__header{
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+/* companies */
+
+
+.companies {
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+.p__companies{
+    font-size: 1rem;
+}
+
+.companies img {
+    height: 2.3rem;
+    margin: 5px;
+}
+
 
 
 }
