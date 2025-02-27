@@ -123,18 +123,20 @@ body {
     }
 
     .companies{
+
         display: flex;
+        justify-content: center; 
+        align-content: center;   
         background-color: var(--ivory-background);
         flex-wrap: wrap;
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
     }
 
     .p__companies{
         display: inline-block;
         color: var(--black-paragraph);
         font-size: 2rem;
+        
     }
 
     .companies img{
