@@ -240,6 +240,9 @@ info ul::before{
     margin: 2rem;
 }
 
+
+/* terms__footer */
+
 .footer .terms__footer{
     margin-left: 1rem;
     margin-top: 0;
@@ -260,8 +263,26 @@ info ul::before{
     color: var(--blue-links);
 }
 
+/* social__footer */
 
 .social__footer{
     display: flex;
-    
+    gap: 4rem;
+    margin: 1.5rem;
+}
+
+
+.social__footer .fab{
+    font-size: 1.5rem;
+}
+
+small{
+    display: block;
+    color: var(--footer-links-grey);
+    text-align: center;
+    width: 75%;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    line-height: 1rem;
+    overflow-wrap: break-word;
 }
