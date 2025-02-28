@@ -109,9 +109,9 @@ header {
 .g-image {
     background-color: white;
     position: absolute;
-    left: 3rem;
-    top: 0.8rem;
-    width: 1.2rem;
+    left: 1rem;
+    top: 0.3rem;
+    width: 2rem;
 }
 
 
@@ -187,11 +187,6 @@ header {
     margin-top: 3rem;
 }
 
-info ul::before {
-    display: block;
-    margin-top: 5rem;
-}
-
 .info li {
     margin: 2rem;
 }
@@ -201,8 +196,7 @@ info ul::before {
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
-    width: 40%;
-
+    width: 80%;
 }
 
 .info span {
@@ -324,8 +318,12 @@ small {
 
     /* header */
 
+    /* Poner background image */
+
     header {
         flex-direction: row;
+        background-image: url(../images/background-singup.png);
+        background-size: cover;
     }
 
     .text__header {
@@ -364,6 +362,41 @@ small {
     height: 2.3rem;
     margin: 5px;
 }
+
+/* Info */
+
+.info ul{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.info ul p {
+    width: 100%;
+    text-align: left;
+}
+
+.signup-button__header,
+.g-signup-button__header,
+.try-button__info,
+.talk-button__info {
+    width: 500px;
+}
+
+/* footer */
+
+.terms__footer{
+    display: flex;
+
+}
+
+.footer .terms__footer li {
+    margin: 0.5rem;
+}
+.social__footer{
+width: 50%;
+}
+
 
 
 
